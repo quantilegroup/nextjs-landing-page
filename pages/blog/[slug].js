@@ -163,7 +163,7 @@ export default function Post({ content, frontmatter }) {
       <SEO title={frontmatter.title} description={frontmatter.description} />
       <Header
         color="transparent"
-        brand="Quantile"
+        brand="Your Brand Here"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{

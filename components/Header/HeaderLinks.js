@@ -179,7 +179,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Link
           className={classes.navLink}
-          href="https://quantilegroup.com/#contact-us"
+          href="/#contact-us"
         >
           <Button color="transparent">Contact</Button>
         </Link>

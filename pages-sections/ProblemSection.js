@@ -20,9 +20,6 @@ const problemStyle = {
   description: {
     color: grayColor,
   },
-  emphasizedText : {
-    margin: "3em 0 0"
-  }
 };
 
 const useStyles = makeStyles(problemStyle);
@@ -34,16 +31,12 @@ export default function ProblemSection() {
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={10} lg={10} xl={10}>
           <h2 className={classes.title}>
-            Conventional analytics won't give you a competitive edge
+            Wow, such a cool landing page!
           </h2>
           <p className={classes.description}>
-            Deciphering and acting upon customer insights is critical to success in the omnichannel age, but pie charts
-            and histograms won't compel your organization to take action. Your executives aren't as excited about the science
-            as we are; they want trustworthy, forward-looking tools to guide them in a language they can relate to.{" "}
-          </p>
-          <p className={classes.emphasizedText}>
-            Data science is more than just pretty visuals. You know it, we know
-            it, and together we're going to prove it.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           </p>
           <br />
         </GridItem>

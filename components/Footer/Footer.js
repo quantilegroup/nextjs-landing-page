@@ -119,7 +119,7 @@ export default function Footer(props) {
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()}, Quantile Group
+          &copy; {1900 + new Date().getYear()}, Your Org Name
         </div>
       </div>
     </footer>

@@ -64,11 +64,11 @@ export default function BlogPage({ posts }) {
     <div id="top">
       <SEO
         title="All Posts"
-        description="All posts and releases from Quantile Group"
+        description="[your description here]"
       />
       <Header
         color="transparent"
-        brand="Quantile"
+        brand="Your Brand Here"
         rightLinks={<HeaderLinks noBlog />}
         fixed
         changeColorOnScroll={{

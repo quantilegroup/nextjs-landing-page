@@ -1,7 +1,7 @@
 {
-  "name": "Quantile-Group",
+  "name": "nextjs-landing-page",
   "version": "1.1.0",
-  "description": "Expert machine learning, technical design, and analytics services for when you have to get it right the first time",
+  "description": "An open-source landing page built by Quantile using React, NextJS, and the Material-UI design kit.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,24 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ntlind/nextjs-website"
+    "url": "git+https://github.com/quantilegroup/nextjs-landing-page"
   },
   "keywords": [
     "next",
     "nextjs",
     "react",
-    "reactjs",
-    "forecasting",
-    "consulting",
-    "freelancing",
-    "machine learning"
-  ],
-  "author": "Quantile",
+    "reactjs"],
+  "author": "Nick from Quantile",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/creativetimofficial/nextjs-material-kit/issues"
   },
-  "homepage": "https://quantilegroup.com",
+  "homepage": "https://your_url.com",
   "dependencies": {
     "@material-ui/core": "4.9.13",
     "@material-ui/icons": "4.9.1",

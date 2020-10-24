@@ -77,11 +77,11 @@ export default function ContactSection() {
     <div id="contact-us" className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>How can we help?</h2>
+          <h2 className={classes.title}>Section title</h2>
           <p className={classes.description}>
-            We'd love to learn more about the challenges you're facing and share
-            how we might solve them together. Schedule, call, email, or text
-            and we'll respond in 24 hours.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           </p>
           <div
             style={{
@@ -91,7 +91,7 @@ export default function ContactSection() {
             }}
           >
             <CalendlyButton
-              url="https://calendly.com/quantilegroup/30min"
+              url="https://calendly.com/[your_url]/30min"
               text="Schedule my discovery call"
             />
           </div>
@@ -103,29 +103,24 @@ export default function ContactSection() {
             <div className={classes.contactDetails}>
               <div className={classes.textPadding}>
                 <h6 className={classes.contactHeader}> PHONE </h6> +1 ‪(303)
-                578-0724‬
+                111-1111‬
               </div>
               <div className={classes.textPadding}>
                 <h6 className={classes.contactHeader}> EMAIL </h6>{" "}
-                hello@quantilegroup.com
+                hello@youremail.com
               </div>
-              <h6 className={classes.contactHeader}> ENCRYPTED </h6>{" "}
-              <a href="https://latacora.micro.blog/2019/07/16/the-pgp-problem.html#:~:text=PGP%20does%20a%20mediocre%20job,not%20great%20at%20protecting%20backups.">
-                We're no longer on PGP
-              </a>
-              , <br /> but you can always reach us on Signal
             </div>
           </GridItem>
           <GridItem xs={12} sm={12} md={6}>
             <GridItem xs={12} sm={12} md={6} className={classes.imageGrid}>
               <img
-                src={"/images/faces/nick_casual.JPG"}
+                src={"/images/faces/kendall.JPG"}
                 alt=""
                 className={imageClasses}
               />
             </GridItem>
             <div className={classes.headshotDetails}>
-              <p className={classes.cardTitle}>Nick Lind</p>
+              <p className={classes.cardTitle}>Kendall Jones</p>
               <p className={classes.smallTitle}>Co-founder</p>
               <div>
                 <Button
@@ -133,8 +128,8 @@ export default function ContactSection() {
                   color="transparent"
                   size="lg"
                   target="_blank"
-                  title="Connect with Nick on LinkedIn"
-                  href="https://www.linkedin.com/in/nicholasthorlind/"
+                  title="Connect with Kendall on LinkedIn"
+                  href="https://www.linkedin.com/in/yourlinkedinhere/"
                 >
                   <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>

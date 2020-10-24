@@ -8,8 +8,8 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta
-            name="Quantile Group"
-            content="Expert machine learning, technical design, and analytics services for when you have to get it right the first time."
+            name="Your name here" //TODO update for your page
+            content="Your description here."
           />
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />

@@ -1,14 +1,16 @@
+// this script feeds the SEO component on each page
+
 export default {
   siteMetadata: {
-    title: "Quantile Group",
+    title: "NextJS Landing Page",
     author: {
       name: "Nick from Quantile Group",
       summary:
-        "Expert machine learning, technical design, and analytics services for when you have to get it right the first time",
+        "[your summary here!]",
     },
     description:
-      "Our landing page and blog featuring applications of machine learning in Retail and Consumer Packaged Goods",
-    siteUrl: "https://quantilegroup.com",
+      "An open-source landing page built by Quantile using React, NextJS, and the Material-UI design kit.",
+    siteUrl: "https://[your-website-here].com",
     language: "en-US",
   },
 };

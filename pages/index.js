@@ -44,15 +44,12 @@ export default function LandingPage({ props, posts }) {
   const { ...rest } = props;
   return (
     <div id="top">
-      <SEO
-        title="Home"
-        description="Landing page for Quantile Group, an analytics and machine learning consulting group"
-      />
+      <SEO title="Home" description="" />
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Quantile"
-        rightLinks={<HeaderLinks noHome/>}
+        brand="Title"
+        rightLinks={<HeaderLinks noHome />}
         fixed
         changeColorOnScroll={{
           height: 400,
@@ -60,7 +57,6 @@ export default function LandingPage({ props, posts }) {
         }}
         {...rest}
       />
-      {/* background image from loading.io: https://loading.io/asset/419575 */}
       <Parallax
         responsive
         filterLight
@@ -71,19 +67,18 @@ export default function LandingPage({ props, posts }) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={8}>
               <h1 className={classes.heroTitle}>
-                What does your retail data say about the health of your
-                business?
+                Shockingly-cool hero title
               </h1>
               <p className={classes.heroDescription}>
-                Your customers are telling you a story with every purchase they
-                make. We'll decode their behavior to predict demand and drive 
-                bottom-line growth for your business.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
               </p>
             </GridItem>
             <GridItem xs={12} sm={12} md={8}>
               <CalendlyButton
-                url="https://calendly.com/quantilegroup/30min"
-                text="Schedule my discovery call"
+                url="https://calendly.com/[your-url]/30min" //TODO enter your orgname in the calendly link
+                text="Your button text here"
               />
             </GridItem>
           </GridContainer>
@@ -96,8 +91,6 @@ export default function LandingPage({ props, posts }) {
         </div>
         <TechSection />
         <div className={classes.container}>
-          {/* <PillSection /> */}
-          {/* <TeamSection /> */}
           <ContactSection />
         </div>
         <BlogSection posts={posts} />

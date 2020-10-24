@@ -38,26 +38,26 @@ export default function ServicesSection() {
   const classes = useStyles();
   return (
     <div className={classes.backgroundSection}>
-      <h2 className={classes.title}> Value we've delivered to F100 Retail & CPG Companies</h2>
+      <h2 className={classes.title}> Statistics section for emphasis </h2>
       <GridContainer>
         <GridItem xs={12} sm={12} md={4}>
           <NumberArea
-            title="3-6%"
-            description="improvement in operating profit through pricing and promotion optimizations"
+            title="50%"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
             vertical
           />
         </GridItem>
         <GridItem xs={12} sm={12} md={4}>
           <NumberArea
-            title="23%+"
-            description="increase in out-of-sample forecasting error compared to preexisting solutions"
+            title="$50B+"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
             vertical
           />
         </GridItem>
         <GridItem xs={12} sm={12} md={4}>
           <NumberArea
             title="50M"
-            description="Unique store/SKU/Week combinations processed every 15 minutes"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
             vertical
           />
         </GridItem>

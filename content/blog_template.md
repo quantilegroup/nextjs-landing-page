@@ -3,6 +3,7 @@ title: Blog Template
 image: /images/backgrounds/bg7.jpg
 description: Coding is such a blissful activity.
 date: 2020-04-16
+featured: 1
 ---
 
 Some introductory text.

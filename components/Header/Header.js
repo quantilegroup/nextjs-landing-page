@@ -226,13 +226,7 @@ export default function Header(props) {
   });
   const brandComponent = (
     <Link href="/" as="/">
-      <Button className={classes.title}>
-        <img
-          src={"/images/logos/logo_white@1000.png"}
-          alt="Quantile Group logo"
-          style={{ width: "112px", height: "auto" }}
-        />
-      </Button>
+      <Button className={classes.title}>{brand}</Button>
     </Link>
   );
   return (

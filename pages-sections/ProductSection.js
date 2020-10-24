@@ -37,21 +37,17 @@ export default function ProductSection() {
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
-        {/* illustration from https://undraw.co/illustrations */}
-        <GridItem xs={12} sm={12} md={6} className={classes.imageGrid}>
-          <img
-            src={"/images/patterns/build_together.svg"}
-            alt="Cartoon of people building a dashboard together. Created on undraw.io."
-            className={imageClasses}
-          />
-        </GridItem>
+        <GridItem
+          xs={12}
+          sm={12}
+          md={6}
+          className={classes.imageGrid}
+        ></GridItem>
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>
-            Let's simplify and grow <br /> your business together
-          </h2>
+          <h2 className={classes.title}>Yet another beautiful section</h2>
           <p className={classes.description}>
-            We've spent the past decade building machine learning and analytics products for Fortune 100 Retail and Consumer Packaged Goods (CPG) companies around the world.
-            We want to make your decision-making process as simple and enjoyable as your shopping experience.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
           </p>
         </GridItem>
       </GridContainer>
@@ -59,8 +55,8 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Designed empathetically"
-              description="We build bridges between executives, engineers, and customers to solve for the root of the issue."
+              title="Section 1"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
               icon={SmsFailed}
               iconColor="primary"
               vertical
@@ -68,8 +64,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Delivered narratively"
-              description="We weave machine learning systems into quantitive narratives to delight users and inspire action."
+              title="Section 2"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
               icon={BubbleChart}
               iconColor="success"
               vertical
@@ -77,8 +73,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Built right the first time"
-              description="We write performant, high-coverage code that's works at terabyte scale in any cloud environment."
+              title="Section 3"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
               icon={Code}
               iconColor="danger"
               vertical
