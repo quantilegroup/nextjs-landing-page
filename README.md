@@ -5,22 +5,29 @@
 
 ![Product Presentation Image](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nextjs-material-kit/nextjs-material-kit.jpg)
 
-**NextJS Landing Page is a fork of the [NextJS Material Kit](https://demos.creative-tim.com/nextjs-material-kit/?ref=njsmk-readme)** with a few new features:
+NextJS Landing Page is a fork of the [NextJS Material Kit](https://demos.creative-tim.com/nextjs-material-kit/?ref=njsmk-readme) with a few new features:
+
+**New Features**:
 - Added new blog functionality, which takes markdown files located in `/pages/blog/*` and converts them to HTML using Next.JS's [dynamic routing](https://nextjs.org/docs/routing/dynamic-routes). The blog posts are displayed using a custom `BlogList.js` component within `components/BlogList/BlogList.js`. Additional blogging features include:
   - The ability to limit the number of posts via the `BlogList` component for easy styling into various pages
-    - []
-  -   
+    - ![Demonstration of the new BlogList component](https://github.com/quantilegroup/nextjs-landing-page/blob/main/public/images/demonstration.jpeg?raw=true)
+  - Using the `feature: 1` frontmatter to determine which posts populate the header of the main blog page (in `pages/blog/[slug]`)
+  - Custom renderers to format the markdown that's passed through (`react-markdown`)[https://github.com/remarkjs/react-markdown]
+  - A custom `CalendlyButton` that can allow your visitors to schedule time with you through Calendly without leaving your site
+
+**Other Changes**:
+- Made styling updates throughout, with a focus on user accessibility
 - Move images to `public` per the latest Next.JS updates
 - Refactored most scripts within `jss` to sit within their respective components for convenience when editing CSS-in-JS
-- Add custom card styling
+- Standardized some important CSS classes within `nextjs-material-kit.js`
 - Add new accessibility features, such as adding `alt` options for parallax images
-- Consolidated CSS-in-JS styles into their component pages to reduce load time
-- Loading Font Awesome icons from Cloudflare's cache
-- Styling updates to improve accessibility
+- Loaded Font Awesome icons from Cloudflare's cache for improved speed
 
 
-This website was developed using [NextJS](https://nextjs.org/?), [Material-UI](https://material-ui.com/?), and [Material Kit React](https://www.creative-tim.com/product/material-kit-react?) by Creative Tim. We had a lot of fun building with these templates, and we hope you will too. 
-
+This website was developed using [NextJS](https://nextjs.org/?), [Material-UI](https://material-ui.com/?), and [Material Kit React](https://www.creative-tim.com/product/material-kit-react?) by Creative Tim. We had a lot of fun building with these templates, and we hope you will too. Special thanks to Creative Tim, the Vercel team, and the amazing React community that created our new dependencies:
+- (react-markdown)[https://github.com/remarkjs/react-markdown]
+- (react-calendly)[https://www.npmjs.com/package/react-calendly]
+- (react-scroll)[https://www.npmjs.com/package/react-scroll]
 
 
 ## About NextJS Material Kit
