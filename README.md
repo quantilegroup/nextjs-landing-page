@@ -4,29 +4,32 @@
 
 NextJS Landing Page is a fork of the [NextJS Material Kit](https://demos.creative-tim.com/nextjs-material-kit/?ref=njsmk-readme) with a few new features:
 
-**New features**:
-- Added new blog functionality, which takes markdown files located in `/pages/blog/*` and converts them to HTML using Next.JS's [dynamic routing](https://nextjs.org/docs/routing/dynamic-routes). The blog posts are displayed using a custom `BlogList.js` component within `components/BlogList/BlogList.js`.
-- The ability to limit the number of posts via the `BlogList` component for easy styling into various pages
-  - ![Demonstration of the new BlogList component](https://github.com/quantilegroup/nextjs-landing-page/blob/main/public/images/demonstration.jpeg?raw=true)
-- Using the `feature: 1` frontmatter to determine which posts populate the header of the main blog page (in `pages/blog/[slug]`)
-- Custom renderers in `[slug].js` to format the markdown that's passed through (`react-markdown`)[https://github.com/remarkjs/react-markdown]
+- Added an entirely new blog functionality, which takes markdown files located in `/pages/blog/*` and converts them to HTML using Next.JS's [dynamic routing](https://nextjs.org/docs/routing/dynamic-routes). The blog posts are displayed using a custom `BlogList.js` component within `components/BlogList/BlogList.js`. `BlogList` makes it easy to style your blog posts into various components:
+  - ![Demonstration of the new BlogList component](https://github.com/quantilegroup/nextjs-landing-page/blob/main/public/images/blog_example.gif?raw=true)
+- Included the ability to use `feature: 1` frontmatter to determine which posts populate the header of the main blog page (in `pages/blog/[slug]`)
+- Wrote custom renderers in `[slug].js` to format the markdown that's passed through (`react-markdown`)[https://github.com/remarkjs/react-markdown]
   - ![Demonstration of new renderers](https://github.com/quantilegroup/nextjs-landing-page/blob/main/public/images/custom_renderers.JPG?raw=true)
-- A new `CalendlyButton` button that allows visitors to schedule time with you through [Calendly](calendly.com) without leaving your site
+- Added new `CalendlyButton` button that allows visitors to schedule time with you through [Calendly](calendly.com) without leaving your site
   - ![Demo of new Calendly widget](https://github.com/quantilegroup/nextjs-landing-page/blob/main/public/images/calendly_example.gif?raw=true)
+- Added a new sitemap generator using `nextjs-sitemap-generator` to improve SEO
+- Added a new `SEO.js` component to add `<meta>` tags to every page to improve SEO scores
 
-**Other minor changes**:
+
+Other minor changes relative to [NextJS Material Kit](https://demos.creative-tim.com/nextjs-material-kit/?ref=njsmk-readme) include:
 - Made styling updates throughout, with a focus on user accessibility
-- Move images to `public` per the latest Next.JS updates
+- Moved static files to `public` per the latest Next.JS updates, including a new robot.txt template
 - Refactored most scripts within `jss` to sit within their respective components for convenience when editing CSS-in-JS
 - Standardized some important CSS classes within `nextjs-material-kit.js`
 - Add new accessibility features, such as adding `alt` options for parallax images
-- Loaded Font Awesome icons from Cloudflare's cache for improved speed
+- Loaded Font Awesome icons from Cloudflare's cache for improved load speed
 
 
 This website was developed using [NextJS](https://nextjs.org/?), [Material-UI](https://material-ui.com/?), and [Material Kit React](https://www.creative-tim.com/product/material-kit-react?) by Creative Tim. We had a lot of fun building with these templates, and we hope you will too. Special thanks to Creative Tim, the Vercel team, and the amazing React community that created our new dependencies:
 - (react-markdown)[https://github.com/remarkjs/react-markdown]
 - (react-calendly)[https://www.npmjs.com/package/react-calendly]
 - (react-scroll)[https://www.npmjs.com/package/react-scroll]
+- (nextjs-sitemap-generator)[https://www.npmjs.com/package/nextjs-sitemap-generator]
+- SEO component created by (JoseRFelix)[https://github.com/JoseRFelix/nextjs-starter-blog/blob/master/components/Seo.js]
 
 
 ## About NextJS Material Kit
@@ -43,46 +46,5 @@ This new design has elements that have been the result of research regarding ink
 - Clone the repo: `git clone https://github.com/quantilegroup/nextjs-landing-page.git`.
 - Switch directories: `cd nextjs-landing-page.git`
 - Install dependencies: `npm install`
-- `npm i nextjs-material-kit`
-
-
-
-## Browser Support
-
-At present, we officially aim to support the last two versions of the following browsers:
-
-<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/chrome-logo.png?raw=true" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/firefox-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/edge-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/safari-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/opera-logo.png" width="64" height="64">
-
-
-
-## Resources
-- 
-
-
-
-## Licensing
-Licensed under MIT (https://github.com/quantilegroup/LICENSE.md)
-
-
-
-undraw.co
-unsplash
-loading.io
-
-
-
-- React-Markdown
-  - https://github.com/JoseRFelix/nextjs-starter-blog
-  - https://jfelix.info/blog/how-to-make-a-static-blog-with-next-js
-  - Custom Renderers
-    - https://github.com/rexxars/commonmark-react-renderer/blob/master/src/commonmark-react-renderer.js
-    - https://www.newline.co/@dmitryrogozhny/how-to-render-markdown-in-react-with-react-markdown--5d1c3849
-
-Optimizing for SEO:
-  - Adding a sitemap generator with `nextjs-sitemap-generator`
-  - Added a new `SEO.js` component to add `<meta>` tags to every page to improve SEO scores
-  - Resources
-    - https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for-beginners-that-will-get-you-ranked-every-single-1b903b3ab6bb
-    - https://blog.maximeheckel.com/posts/seo-mistakes-i-have-made-and-how-i-fixed-them/
-    - https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fquantilegroup.com
-
+- To develop: run `npm run dev` and navigate to `http://localhost:3000/`
+- To create static html files for your server: `npm run export`
