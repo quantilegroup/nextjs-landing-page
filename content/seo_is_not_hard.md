@@ -1,6 +1,6 @@
 ---
 title: SEO is Not Hard
-image: https://images.unsplash.com/photo-1603329470128-074eaf2939e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80 ](https://images.unsplash.com/photo-1603329470128-074eaf2939e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
+image: https://images.unsplash.com/photo-1603329470128-074eaf2939e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
 date: 2016-08-05
 description: "A step-by-step SEO Tutorial for beginners that will get you ranked every single time"
 image_alt_text: Stock image from original article
