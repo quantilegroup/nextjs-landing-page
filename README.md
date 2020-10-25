@@ -14,6 +14,8 @@ NextJS Landing Page is a fork of the [NextJS Material Kit](https://demos.creativ
 - Added a new sitemap generator using `nextjs-sitemap-generator` to improve SEO
 - Added a new `SEO.js` component to add `<meta>` tags to every page to improve SEO scores
 
+<br />  
+<br />  
 
 Other minor changes relative to [NextJS Material Kit](https://demos.creative-tim.com/nextjs-material-kit/?ref=njsmk-readme) include:
 - Made styling updates throughout, with a focus on user accessibility
@@ -23,6 +25,8 @@ Other minor changes relative to [NextJS Material Kit](https://demos.creative-tim
 - Add new accessibility features, such as adding `alt` options for parallax images
 - Loaded Font Awesome icons from Cloudflare's cache for improved load speed
 
+<br />  
+<br />  
 
 This website was developed using [NextJS](https://nextjs.org/?), [Material-UI](https://material-ui.com/?), and [Material Kit React](https://www.creative-tim.com/product/material-kit-react?) by Creative Tim. We had a lot of fun building with these templates, and we hope you will too. Special thanks to Creative Tim, the Vercel team, and the amazing React community that created our new dependencies:
 - (react-markdown)[https://github.com/remarkjs/react-markdown]
@@ -31,15 +35,18 @@ This website was developed using [NextJS](https://nextjs.org/?), [Material-UI](h
 - (nextjs-sitemap-generator)[https://www.npmjs.com/package/nextjs-sitemap-generator]
 - SEO component created by (JoseRFelix)[https://github.com/JoseRFelix/nextjs-starter-blog/blob/master/components/Seo.js]
 
+<br />  
+<br />  
 
-## About NextJS Material Kit
+## About NextJS Material Kit (from the author)
 **[NextJS Material Kit](https://demos.creative-tim.com/nextjs-material-kit/?)** makes use of light, surface and movement. It uses a deliberate color choice, edge-to-edge imagery and large scale typography. The general layout resembles sheets of paper following multiple different layers, so that the depth and order is obvious. The navigation stays mainly on the left and the actions on the right.
 
 This new design has elements that have been the result of research regarding ink and paper and the way objects and materials interact in real life. The result is a beautiful and consistent set of elements that can get you started with your next project. NextJS Material Kit is a great tool if you are looking to create a web presence for your web application and need to be consistent, leaving the impression of visually similar elements. It is also a great resource in its own right, looking gorgeous and helping you build your web pages.
 
 **[NextJS Material Kit](https://demos.creative-tim.com/nextjs-material-kit/?ref=njsmk-readme)** was built with the help of [nextjs](https://nextjs.org/?ref=creativetim) and it uses a framework built by our friends from **[Material-UI](https://material-ui.com/?ref=creativetim)**, who did an amazing job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to this team for the effort and forward thinking they put into it.
 
-
+<br />  
+<br />  
 
 ## Quick start
 
