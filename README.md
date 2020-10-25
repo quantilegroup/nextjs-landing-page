@@ -1,21 +1,20 @@
-# NextJS Landing Page
+# NextJS & React: Landing Page / Blog
 
  ![version](https://img.shields.io/badge/version-1.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) 
 
-
-![Product Presentation Image](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nextjs-material-kit/nextjs-material-kit.jpg)
-
 NextJS Landing Page is a fork of the [NextJS Material Kit](https://demos.creative-tim.com/nextjs-material-kit/?ref=njsmk-readme) with a few new features:
 
-**New Features**:
-- Added new blog functionality, which takes markdown files located in `/pages/blog/*` and converts them to HTML using Next.JS's [dynamic routing](https://nextjs.org/docs/routing/dynamic-routes). The blog posts are displayed using a custom `BlogList.js` component within `components/BlogList/BlogList.js`. Additional blogging features include:
-  - The ability to limit the number of posts via the `BlogList` component for easy styling into various pages
-    - ![Demonstration of the new BlogList component](https://github.com/quantilegroup/nextjs-landing-page/blob/main/public/images/demonstration.jpeg?raw=true)
-  - Using the `feature: 1` frontmatter to determine which posts populate the header of the main blog page (in `pages/blog/[slug]`)
-  - Custom renderers to format the markdown that's passed through (`react-markdown`)[https://github.com/remarkjs/react-markdown]
-  - A custom `CalendlyButton` that can allow your visitors to schedule time with you through Calendly without leaving your site
+**New features**:
+- Added new blog functionality, which takes markdown files located in `/pages/blog/*` and converts them to HTML using Next.JS's [dynamic routing](https://nextjs.org/docs/routing/dynamic-routes). The blog posts are displayed using a custom `BlogList.js` component within `components/BlogList/BlogList.js`.
+- The ability to limit the number of posts via the `BlogList` component for easy styling into various pages
+  - ![Demonstration of the new BlogList component](https://github.com/quantilegroup/nextjs-landing-page/blob/main/public/images/demonstration.jpeg?raw=true)
+- Using the `feature: 1` frontmatter to determine which posts populate the header of the main blog page (in `pages/blog/[slug]`)
+- Custom renderers in `[slug].js` to format the markdown that's passed through (`react-markdown`)[https://github.com/remarkjs/react-markdown]
+  - ![Demonstration of new renderers](https://github.com/quantilegroup/nextjs-landing-page/blob/main/public/images/custom_renderers.JPG?raw=true)
+- A new `CalendlyButton` button that allows visitors to schedule time with you through [Calendly](calendly.com) without leaving your site
+  - ![Demo of new Calendly widget](https://github.com/quantilegroup/nextjs-landing-page/blob/main/public/images/calendly_example.gif?raw=true)
 
-**Other Changes**:
+**Other minor changes**:
 - Made styling updates throughout, with a focus on user accessibility
 - Move images to `public` per the latest Next.JS updates
 - Refactored most scripts within `jss` to sit within their respective components for convenience when editing CSS-in-JS

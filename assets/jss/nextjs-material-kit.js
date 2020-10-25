@@ -90,7 +90,7 @@ const defaultFont = {
   lineHeight: "1.5em",
 };
 
-export const primaryColor = "#00b0ff";
+export const primaryColor = "#ab47bc";
 export const lightPrimaryColor = "#e3f2fd";
 export const warningColor = "#ff9800";
 export const dangerColor = "#f44336";
@@ -100,8 +100,6 @@ export const roseColor = "#ed5458";
 export const grayColor = "#555555";
 export const lightGrayColor = "#757575";
 export const nearBlackColor = "#3C4858";
-export const logoBlue = "#1886E4";
-export const logoRed = "#F4174F"
 
 const primaryBoxShadow = {
   boxShadow: `0 12px 20px -10px ${hexToRGBAlpha(
@@ -258,8 +256,7 @@ export const raisedDiv = {
   textAlign: "center",
   position: "relative",
   zIndex: "3",
-  margin: "-2rem 0  ",
-  borderRadius: "0px", 
+  margin: "-2rem 0",
   boxShadow:
     "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
 };
